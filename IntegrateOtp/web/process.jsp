@@ -45,7 +45,7 @@
                        StringBuffer res=new StringBuffer();
                        BufferedReader br=new BufferedReader(new InputStreamReader(con.getInputStream()));
                        String success="Your message sent sucessfully";
-                       response.sendRedirect("otpVerfication.jsp");
+                       response.sendRedirect("otp.jsp");
                        br.close();
                 
                   }
